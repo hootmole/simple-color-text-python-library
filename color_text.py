@@ -1,4 +1,3 @@
-
 def red_text(text):
     return '\033[91;1m' + text + '\033[0m'
 
@@ -42,5 +41,3 @@ def cyan_background(text):
 
 def white_background(text):
     return "\u001b[47;1m" + text + '\033[0m'
-
-
