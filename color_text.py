@@ -44,9 +44,3 @@ def white_background(text):
     return "\u001b[47;1m" + text + '\033[0m'
 
 
-text = "hot mole IS HOT"
-print(
-    green_text(text),
-    magenta_background(text),
-    blue_background(red_text(text))
-)
